@@ -1,0 +1,39 @@
+<mat-toolbar color="primary" class="main-header d-flex flex-md-row justify-content-around px-md-4 bg-white border-bottom shadow-sm">
+    <div class="branding-logo my-0 mr-md-auto font-weight-normal">
+     <img src="assets/images/logo.png" alt="logo">
+     <span class="tagline">Travel & Expense Management</span>
+    </div>
+
+   <!-- <div> 
+    <div class="prof-thumb" [ngbPopover]="popContent" style="cursor: pointer;">
+      <img src="assets/images/hotel.jpg" alt="profile image">
+    </div>
+    <span class="tagline">{{userFisrtname}} <i class="fa fa-angle-down"></i></span>
+   </div> -->
+
+   
+   <nav class="my-2 my-md-0 mr-md-3"> 
+     <!-- <button mat-button [ngbPopover]="popContent">{{userFisrtname}} <i class="fa fa-angle-down"></i></button> -->
+     <button mat-button routerLink="/managetravel/dashboard">Home</button>
+    <!-- <button mat-button routerLink="/createTrip">Create Trip</button>
+    <button mat-button routerLink="/tripList">TripList</button> -->
+    <button mat-button routerLink="/managetravel/approveTrip">Approve Trip</button> 
+    <button mat-button routerLink="/managetravel/expenseClaim">Expense Claim</button>
+    <button mat-button routerLink="/managetravel/approveExpense">Approve Expense</button>
+    <button mat-button routerLink="/managetravel/approveAdvance">ApproveAdvanceComponent</button>
+    
+     
+     
+    </nav>
+    <div class="row profileDiv"   >
+      <div class="col-xs-6">
+        <div class="prof-thumb">
+          <img src="assets/images/profile.png" class="headerProfilePic" alt="profile image">
+        </div>
+      </div>
+      <div class="col-xs-6 headerUserName">
+         <i class="fa fa-angle-down"></i>
+      </div>
+  </div>
+</mat-toolbar>
+<router-outlet></router-outlet>

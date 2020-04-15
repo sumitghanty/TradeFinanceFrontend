@@ -1,0 +1,21 @@
+<mat-sidenav-container class="example-container" >
+    <mat-sidenav #sidenav mode="side" opened [disableClose]="true" (opened)="events.push('open!')"
+                 (closed)="events.push('close!')">
+        <mat-sidenav-container>
+        <mat-sidenav-content>Contact Details</mat-sidenav-content>
+        <mat-sidenav-content>Extend My Role</mat-sidenav-content>
+        <mat-sidenav-content>Manage Profile</mat-sidenav-content>
+        <mat-sidenav-content>Apply for Trade</mat-sidenav-content>
+        <mat-sidenav-content>Gererate PO</mat-sidenav-content>
+        <mat-sidenav-content>Process Purchse</mat-sidenav-content>
+        <mat-sidenav-content>Request for Payment Ext</mat-sidenav-content>
+        <mat-sidenav-content>Buyer's Request Worklist</mat-sidenav-content>
+        <mat-sidenav-content>Process Trade </mat-sidenav-content>
+        <mat-sidenav-content>Buyer's Request Worklist</mat-sidenav-content>
+        </mat-sidenav-container>
+    </mat-sidenav>
+    <mat-sidenav-content> 
+    <p><button mat-button (click)="sidenav.toggle()"><i class="fa fa-arrow-circle-down"></i>></button></p>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+   
