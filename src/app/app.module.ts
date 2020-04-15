@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { MazarsRegistrationComponent } from './mazars-registration/mazars-registration.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     FooterComponent,
     LoginComponent,
     MazarsRegistrationComponent,
-    SidebarComponent
+    SidebarComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

@@ -105,3 +105,31 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     padding: 12px 10px;
     color: #fff;
   }
+  .prof-thumb{
+    width: 40px;
+    height: 40px;
+    border-radius: 130px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    //box-shadow: 0 0 26px rgba(0,0,0,.2);
+    padding: 4px;
+  }
+  .prof-thumb img{
+    width: 100%;
+  }
+  .user-list span{
+    display: block;
+  }
+  .left-space{
+    margin-left: 250px;
+  }
+  .header{
+    position: relative;
+    top: -39px;
+    z-index: 90;
+    margin-left: 223px;
+    background: #fff;
+    padding-right: 20px;
+    box-shadow: 0 0px 4px rgba(0,0,0,0.1);
+    padding: 9px;
+  }
